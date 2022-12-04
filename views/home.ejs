@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Beautify</title>
+		<link rel="stylesheet" type="text/css">
+	<style type="text/css">
+		li {
+    display: inline;
+    width:100px;
+	padding:10px;
+	font-size:25px;
+	border: 20px;
+}
+.header
+.abc{
+	width: 100%;  
+	height: 100vh;  
+	display: flex;
+	margin: 20%;
+}
+        table {
+            padding: 100px;
+            padding-top: 0px;
+            border:5px solid black;
+			border-radius:50px;
+        }
+        .column {
+            box-sizing: border-box;
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            box-sizing: border-box;
+            content: "";
+            clear: both;
+            display: table;
+        }
+.fa-solid{
+	padding: 10px;
+}
+        body {
+        background-repeat : no-repeat;
+			background-size : cover;
+			
+			padding-bottom:100px;
+        }
+        .li {
+            background-color: black;
+            padding: 20px 100px 20px 100px;
+            font-family: 'Copperplate Gothic';
+            position: fixed;
+           top:0;
+		   width:100%;
+        }
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: lightpink;
+            background-color: transparent;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+        }
+        a {
+            font-size: 25px
+        }
+		figure{
+			margin:140px 0px 0px 160px;
+			padding-right:10%;
+			
+			
+		}
+		.needs{
+			padding-right:40px;
+		}
+       
+	</style>
+	<script src="https://kit.fontawesome.com/c2f84ede90.js" crossorigin="anonymous"></script>
+</head>
+	<body>
+		<div class="li" class="abc">
+			<center>
+				<ul>
+					<li><a href=""><b>Home</b></a></li>
+					<li><a href="shop" style="text-decoration:none; color: white;"><b>Shop</b></a></li>
+					<li><a href=""><b>Contact</b></a></li>
+					<a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+					<a href=""><i class="fa-solid fa-heart"></i></a>
+					<a href="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+					<a href=""><i class="fa-solid fa-user"></i></a>
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+					<a href="login" id="ab"><b>Login&nbsp&nbsp&nbsp&nbsp|</b></a>
+					&nbsp&nbsp&nbsp
+
+					<a href="signup" id="cd"><b>SignUp</b></a>
+				</ul>
+			</center>
+		</div>
+		<div>
+			<figure>
+				<img src="https://etimg.etb2bimg.com/photo/86771733.cms" class="mySlides w3-animate-fading" style="width:100%" align="middle">
+				<img src="https://ethicalelephant.com/wp-content/uploads/2021/05/is-sugar-cosmetics-cruelty-free-vegan-1024x538.jpg" class="mySlides w3-animate-fading" style="width:100%">
+				<a href="cart"><img src="https://hips.hearstapps.com/bpc.h-cdn.co/assets/16/24/1465933706-clinique-makeup-skincare.jpg" class="mySlides w3-animate-fading" style="width:100%"></a>
+				<img src="https://www.artefact.com//wp-content/uploads/2020/12/GettyImages-1181397745-1-copie.jpg" class="mySlides w3-animate-fading" style="width: 100%">
+			</figure>
+		</div>
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				myIndex++;
+				if (myIndex > x.length) { myIndex = 1 }
+				x[myIndex - 1].style.display = "block";
+				setTimeout(carousel, 3000);
+			}
+		</script>
+		<br />
+		<br />
+		<br />
+		<center>
+			<h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:50px;"><b>T I P S </b></h1>
+			<table class="needs" style="background-color:#dfe3ee;">
+				<tr>
+					<td>
+
+						<ul class="do" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+							<li><b><h2 style="align-content:center;">DO ' s</h2></b></li>
+							<br />
+
+							<li>
+								Apply Makeup in a Natural Light
+							</li>
+							<br />
+							<br />
+							<li>
+								Buy Cruelty-Free, Non-Toxic Cosmetics
+							</li>
+							<br />
+							<br />
+							<li>
+								Apply Concealer After Foundation
+							</li>
+							<br />
+							<br />
+							<li>
+								Blend Your Eye Shadows
+							</li>
+							<br />
+							<br />
+							<li>
+								Pay Attention to Your Skin
+							</li>
+							<br />
+							<br />
+							<li>
+								Use a Primer
+							</li>
+						</ul>
+					</td>
+					<td>
+
+						<ul class="dont" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold'">
+							<li><b><h2 style="align-content:center;">DONT ' s</h2></b></li>
+							<br />
+
+							<li>
+								Don't Buy a Lot of Products
+							</li>
+							<br />
+							<br />
+							<li>
+								Don't Apply Makeup to a Dirty Face
+							</li>
+							<br />
+							<br />
+							<li>
+								Don't Sleep in Your Makeup
+							</li>
+							<br />
+							<br />
+							<li>
+								Don't Pump Your Mascara
+							</li>
+							<br />
+							<br />
+							<li>
+								Don't Use Dirty Brushes to Apply Your Makeup
+							</li>
+							<br />
+							<br />
+							<li>
+								Don't Create Fake Brows
+							</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</center>
+		<br />
+		<br />
+		<br />
+
+		<center>
+			<b><h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold'; font-size:40px;">MAKEUP TRENDS</h1></b>
+			<div>
+				<iframe width="942" height="530" src="https://www.youtube.com/embed/beXq6mjTb38" title="BEAUTY STUDIO | MAKEUP PROMO VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			</div>
+		</center>
+		<br />
+		<br />
+		<br />
+		<center>
+			<h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:30px; "><b>EXPLORE</b></h1>
+		</center>
+		<br />
+		<br />
+		<!--<div id="inner">
+			<div>
+			<div>
+				<img src="" width="500" height="500" />
+			</div> </div>
+			<div><div>
+				<img src="" width="500" height="500"/>
+			</div>
+				</div>
+		</div>-->
+		<center>
+			<div class="row">
+				<div class="column">
+					<img src="https://www.honest.com/on/demandware.static/-/Sites-HC-master-catalog/default/dwd80c6732/images/large/CalmRenewMeltingEyeBalm/Jessica.gif" alt="picture" style="width:100%">
+				</div>
+				<div class="column">
+			<img src="https://i.pinimg.com/originals/5a/4a/0a/5a4a0afca2fac27b5b29d657c9045a3d.gif" alt="picture" style="width:100%">
+		</div>
+				<div class="column">
+					<img src="https://www.honest.com/on/demandware.static/-/Sites-HC-master-catalog/default/dwb24899e5/images/large/StayHydratedHyaluronicAcidNFSerum/Jessica.gif" alt="Forest" style="width:100%">
+				</div>
+
+			</div>
+		</center>
+		<br />
+		<br />
+		<br />
+		<div style="background-color: black; height: 180px;" class="icon">
+			<center>
+				<br />
+				<b><h3 style=" font-size: 20px; color: white;">FOLLOW US</h3></b>
+
+				&nbsp<a href=""><i class="fa-brands fa-facebook"></i></a> &nbsp&nbsp
+				<a href=""><i class="fa-brands fa-instagram"></i></a>&nbsp&nbsp
+				<a href=""><i class="fa-brands fa-twitter"></i></a>&nbsp&nbsp
+				<a href=""><i class="fa-brands fa-youtube"></i></a>&nbsp&nbsp
+			</center>
+		</div>
+	</body>
+</html>
